@@ -1,0 +1,76 @@
+.card {
+  width: 220px;
+  margin: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.header {
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Set the direction to column */
+  
+  /* Center the text */
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+   /* Add margin to create space between logo and title */
+}
+
+.logoContainer {
+  display: flex;
+  align-items: flex-start; /* Align logo to the top */
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.description {
+  padding: 10px;
+  height: 100px;
+  font-size: smaller;
+}
+
+.button-container {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  height: 50px;
+}
+
+.button-container button {
+  padding: 8px;
+  background-color: white;
+  color: inherit;
+  border: 2px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #2980b9;
+  color: white;
+  border-color: #2980b9;
+}
+
+.button-container button::before {
+  content: '➲ ';
+  font-size: 1em; 
+}
