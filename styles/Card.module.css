@@ -15,20 +15,18 @@
   padding: 10px;
   color: white;
   display: flex;
-  flex-direction: column; /* Set the direction to column */
-  
-  /* Center the text */
+  flex-direction: column; 
 }
 
 .logo {
   width: 35px;
   height: 35px;
-   /* Add margin to create space between logo and title */
+  
 }
 
 .logoContainer {
   display: flex;
-  align-items: flex-start; /* Align logo to the top */
+  align-items: flex-start; 
 }
 
 .title-container {

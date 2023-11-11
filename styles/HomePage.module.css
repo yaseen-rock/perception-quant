@@ -52,7 +52,7 @@
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px;
-  background-color: #fff; /* Add a background color for the card container */
-  border-radius: 1px; /* Add border-radius for a rounded appearance */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  background-color: #fff; 
+  border-radius: 1px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
 }
